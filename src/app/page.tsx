@@ -1,7 +1,9 @@
+import BTCChart from '@/components/BTCChart';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello from Vercel</h1>
+    <main style={{ maxWidth: 900, margin: '60px auto', padding: '0 24px' }}>
+      <BTCChart />
     </main>
   );
 }
