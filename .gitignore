@@ -22,6 +22,10 @@ build/
 *.tsbuildinfo
 next-env.d.ts
 
+# python
+.venv/
+scripts/
+
 # misc
 .DS_Store
 *.pem
