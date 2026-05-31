@@ -1,4 +1,6 @@
 import { neon } from '@neondatabase/serverless';
+
+export const dynamic = 'force-dynamic';
 import TabLayout from '@/components/TabLayout';
 import type { Article } from '@/types/article';
 
